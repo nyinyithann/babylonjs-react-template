@@ -1,0 +1,37 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "target": "es5",
+        "module": "es6",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "noEmit": true,
+        "preserveConstEnums": true,
+        "allowUnreachableCode": false,
+        "removeComments": true,
+        "allowSyntheticDefaultImports": true,
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "allowJs": true,
+        "jsx": "react",
+        "moduleResolution": "node",
+        "baseUrl": ".",
+        "paths": {
+            "@/*": [
+                "./src/*"
+            ]
+        }
+    },
+    "include": [
+        "src/*.ts",
+        "src/*.tsx",
+        "src/**/*.ts",
+        "src/**/*.tsx",
+        "__test__/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
